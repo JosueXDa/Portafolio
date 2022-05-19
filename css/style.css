@@ -1,0 +1,58 @@
+:root{
+    --principal-color: #C70039;
+    --bacgroud-nav:#212529;
+    --degradado-banner:#5e182f;
+    --color-texto:#f8f9fa
+}
+
+#icon-page{
+
+    width: 45px;
+    height: 45px;
+}
+#navbarSupportedContent ul li :hover{
+    border-bottom: solid 2px var(--principal-color);
+    color: var(--principal-color);
+}
+
+.banner{
+    width: 100%;
+    height: fit-content;
+    background: linear-gradient(to right, #C70039, #212529);
+    position: relative;
+    overflow: hidden;
+}
+#descripcion .col-12 span{
+    color: #f8f9fa;
+    font-size: 35px;
+    font-weight: 500;
+    background-color: #751231;
+    box-shadow: 9px 8px 1px 1px #5e182f;
+}
+#image-banner{
+    width: 100%;
+    height: 100%;
+}
+#container-about-me{
+    background-color: #212529;
+}
+p{
+    color: #f8f9fa;
+}
+h5{
+    color: #f8f9fa;
+}
+#container-about-me .card-blak{
+    box-shadow: 0px 0px 5px 5px black ;
+}
+#container-about-me .titles-seccions span{
+    color: #f8f9fa;
+    font-size: 35px;
+    font-weight: 500;
+    background-color: #751231;
+    box-shadow: 9px 8px 1px 1px #5e182f;
+}
+#tecnologyes-learning{
+    background: linear-gradient(to right, #C70039, #212529);
+
+}
