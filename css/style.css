@@ -52,7 +52,21 @@ h5{
     background-color: #751231;
     box-shadow: 9px 8px 1px 1px #5e182f;
 }
-#tecnologyes-learning{
-    background: linear-gradient(to right, #C70039, #212529);
+#title-technologies span{
+    color: #f8f9fa;
+    font-size: 35px;
+    font-weight: 500;
+    background-color: #751231;
+    box-shadow: 9px 8px 1px 1px #5e182f;
+}
+
+#technologies-learning .back-blak{
+    background-color:  var(--bacgroud-nav);
+    align-items: center;
+}
+
+#technologies-learning .back-blak img{
+    height: 100px;
+    width: 100px;
 
 }
