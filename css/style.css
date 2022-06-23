@@ -4,7 +4,9 @@
     --degradado-banner:#5e182f;
     --color-texto:#f8f9fa
 }
-
+.bg-dark-trans{
+    background-color: transparent;
+}
 #icon-page{
 
     width: 45px;
@@ -17,8 +19,9 @@
 
 .banner{
     width: 100%;
-    height: 100vh;
-    background: linear-gradient(to right, #C70039, #212529);
+    margin-top: 61px;
+    height: calc(100vh - 61px);
+    background: linear-gradient(to bottom, #212529  20%, #C70039 120% );
     position: relative;
     overflow: hidden;
 }
@@ -31,6 +34,8 @@
 #des-cont{
     align-items:center ;
 }
+
+
 #descripcion .col-12 span{
     color: #f8f9fa;
     font-size: 35px;
@@ -41,9 +46,12 @@
 }
 
 #container-about-me{
+    position: relative;
     background-color: #212529;
     height: 100vh;
+    overflow: hidden;
 }
+
 p{
     color: #f8f9fa;
 }
@@ -59,7 +67,13 @@ h5{
     font-weight: 500;
     background-color: #751231;
     box-shadow: 9px 8px 1px 1px #5e182f;
+    
 }
+
+
+
+
+
 #title-technologies span{
     color: #f8f9fa;
     font-size: 35px;
