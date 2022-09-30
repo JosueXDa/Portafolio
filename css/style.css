@@ -62,7 +62,7 @@
     position: relative;
     background-color: #212529;
     height: 100vh;
-    background: linear-gradient(to bottom, #C70039  5%, #212529 60% );
+    background: linear-gradient(to top,  #f8f9fa 30%, #212529 90% );
     overflow: hidden;
 }
 
