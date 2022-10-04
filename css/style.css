@@ -102,7 +102,10 @@ h5{
     box-shadow: 9px 8px 1px 1px #5e182f;
 }
 
-#technologies-learning .back-blak{
+#tecnologies-learning-table .row .col{
+    background-color: yellowgreen;
+}
+/* #technologies-learning .back-blak{
     background-color:  var(--bacgroud-nav);
     align-items: center;
 }
@@ -111,4 +114,4 @@ h5{
     height: 100px;
     width: 100px;
 
-}
+} */
